@@ -1,0 +1,226 @@
+@media (max-width: 1400px){
+    .about-book__body{
+        transform: translateX(0);
+    }
+    .book-2 .about-book__body{
+        transform: translateX(0);
+    }
+    .color-cards__row{
+        justify-content: center;
+        gap: 50px;
+    }
+}
+@media (max-width:1200px) {
+    .best-cards__row{
+        flex-wrap: wrap;
+    }
+    .autors-cards__row{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .autors-card {
+        width: 30%;
+    }
+    .autors-card img{
+        position: static ;
+    }
+}
+
+@media (max-width:992px ){
+    .nav__lists{
+        display: none;
+    }
+    .nav__content{
+        gap: 0;
+        flex-direction: column;
+    }
+    .btn-burger-menu{
+        display: block;
+    }
+    .mobile-nav{
+        & .nav-social__lists{
+            display: flex;
+            justify-content: center;
+        }
+        & .nav__lists{
+            gap: 10px;
+            flex-direction: column;
+            display: flex;
+
+        }
+
+    }
+    .nav-moblie{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 15px;
+        align-items: center;
+    }
+    .nav-social__lists{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-mobile{
+        display: flex;
+    }
+    .title{
+        span{
+            font-size: 50px;
+
+        }
+        font-size: 40px;
+    }
+    .sub-title{
+        text-align: center;
+    }
+    .header-content{
+        overflow: hidden;
+    }
+    .header-content__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            position: absolute;
+        }
+    }
+    .book__content{
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+    }
+    .book-2 .book__content{
+        flex-wrap: wrap-reverse;
+    }
+    .about-book__body, .book-2 .about-book__body{
+        text-align: center;
+    }
+    .card-color{
+        padding: 0 30px;
+
+    }
+    .autors-cards__row{
+        align-items: center;
+        flex-direction: column;
+    }
+    .autor-position{
+        text-align: center;
+    }
+}
+@media (max-width:768px) {
+    .autors-card{
+        width: 40%;
+    }
+    .autors-cards__row{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-title{
+        text-align: center;
+    }
+    .card-color{
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .header-content{
+        justify-content: center;
+        img{
+            display: none;
+        }  
+    } 
+    img{
+        width: 100%;
+    }
+    .best-card{
+        width: 40%;
+    }
+    .header-content__text{
+        padding: 90px 0 30px 0;
+    }
+    .autors-content__body{
+        padding-top: 50px;
+        margin-top: 70px;
+    }
+    .autor-card__title{
+        font-size: 20px;
+    }
+    .contacts-content{
+        width: 100%;
+        max-width: none;
+    }
+    .footer-content{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        ul{
+            align-items: center;
+            li{
+                text-align: center;
+            }
+            a{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width: 576px){
+    .contacts-inputs__row{
+        gap: 15px;
+        justify-content: space-between;
+    }
+    .email{
+        max-width: none;
+    }
+    .input{
+        &:first-child,&:nth-child(2){
+            max-width: none;
+            padding: 12px 0 12px 8px;
+            width: 50%;
+        }
+    }
+}
+@media (max-width: 540px) {
+    .card-color{
+        padding: 0;
+    }
+    .best-card{
+        width: 80%;
+    }
+    .book-title,.autors-title,.title,.color-card__title,.book-color__title{
+        font-size: 20px;
+    }
+    .autors-title{
+        padding:0 15px;
+    }
+    .main-text{
+        font-size: 16px;
+    }
+    .sub-title{
+        font-size: 14px;
+    }
+    .card-color:nth-child(2){
+        transform: translateX(0);
+    }
+    .autors-card{
+        width: 100%;
+    }
+    p{
+        text-align: center;
+    }
+    .contacts-inputs__row{
+        padding:0 15px;
+    }
+    .autor-card__title{
+        font-size: 16px;
+    }
+    .email{
+        width: 90%;
+        padding: 12px 0 12px 8px;
+    }
+}
